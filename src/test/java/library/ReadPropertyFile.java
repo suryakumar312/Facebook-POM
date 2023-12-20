@@ -43,6 +43,11 @@ public class ReadPropertyFile {
 	 public static String getUsername() {
 		return ReadPropertyFile.readData().getProperty("username");
 	 }
+
+
+
+
+	
 	 
 	 public static String getPassword() {
 		return ReadPropertyFile.readData().getProperty("password");
